@@ -1,4 +1,5 @@
-RDS CloudWatch Alert to Slack
+RDS CloudWatch Alerts to Slack
+
 This AWS Lambda function processes CloudWatch RDS alarms, formats the alert message into a human-readable format, and sends notifications to Slack via a webhook.
 
 Setup Instructions
@@ -10,7 +11,7 @@ Setup Instructions
 2. Add Required Environment Variable
 - In the ```Configuration``` tab, go to Environment Variables
 - Key: SLACK_WEBHOOK_URL  
-- Value: <Your Slack Webhook URL>
+- Value: ```Your Slack Webhook URL```
 3. Add Required Permissions
 - Attach the AWSLambdaBasicExecutionRole policy
 4. Deploy the Code
